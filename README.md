@@ -7,18 +7,22 @@ Projekt slouží k extrahování výsledků parlamentních voleb z roku 2017.
 ## Instalace knihoven
 
 Knihovny, které jsou použity v kódu jsou uložené v souboru requirements.txt. Pro instalaci doporučuji použít nové virtuální prostředí a s nainstalovaným manažerem spustit následovně:
-pip3 --version  #ověření verze manažeru
-pip3 install -r requirements.txt   #nainstalování knihoven
+
+- pip3 --version  #ověření verze manažeru
+- pip3 install -r requirements.txt   #nainstalování knihoven
 
 ## Spuštění projektu
 
 Spuštění souboru election_scraper.py v rámci příkazového řádku požaduje dva povinné argumenty.
-python election_scraper <odkaz-uzemniho-celku> <nazev-vysledneho-souboru>
-Následně se vám stáhnou výsledky jsko soubor s pčíponou .csv
+
+- python election_scraper <odkaz-uzemniho-celku> <nazev-vysledneho-souboru>
+
+Následně se vám stáhnou výsledky jsko soubor s příponou .csv
 
 ## Ukázka projektu
 
 Výsledky hlasování pro okres Žďár nad Sázavou:
+
 1. argument: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=10&xnumnuts=6105
 2. argument: vysledky_zdar.csv
 
