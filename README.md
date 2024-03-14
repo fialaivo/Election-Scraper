@@ -27,11 +27,15 @@ Výsledky hlasování pro okres Žďár nad Sázavou:
 2. argument: vysledky_zdar.csv
 
 Spuštění programu:
-python election_scraper.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=10&xnumnuts=6105" "volby_zdar.csv"
+
+- python election_scraper.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=10&xnumnuts=6105" "volby_zdar.csv"
 
 Průběh stahování:
+
 STAHUJI DATA Z VYBRANÉHO URL: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=10&xnumnuts=6105
+
 UKLÁDÁM DO SOUBORU:  volby_zdar.csv
+
 UKONČUJI ELECTION SCRAPER
 
 Částečný výstup:
