@@ -162,3 +162,4 @@ if __name__ == "__main__":
         read_data(answer, web_address, code, district)
     print("UKLÁDÁM DO SOUBORU: ", file_name)
     write_csv(final_list, file_name)
+    print ("UKONČUJI ELECTION SCRAPER")
